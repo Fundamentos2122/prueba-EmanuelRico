@@ -1,0 +1,35 @@
+a{
+    color: rgba(255, 0, 255, 0.596);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.text-capitalize{
+    text-transform: capitalize;
+}
+
+.indent-50{
+    text-indent: 50px;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 10px;
+    text-shadow: 2px 2px red;
+}
+
+.height-1{
+    line-height: 1.5;
+}

@@ -1,0 +1,42 @@
+/*Se activa cuando se hace check en un elemento en que se pueda hacer check en este caso el checkbox*/
+[name="conditions"]:checked{
+    margin-left: 50px;
+}
+/*Se activa cuando se selecciona cualquier elemento seleccionable en este caso input*/
+input:focus{
+    box-shadow: 2px 2px 20px red;
+}
+/*Se activa cuando pasamos el cursor por el elemento en este caso un boton*/
+button:hover{
+    cursor: pointer;
+}
+
+#boton_fake{
+    border: 1px solid darkgray;
+    border-radius: 2px;
+}
+
+#boton_fake:hover{
+    cursor: pointer;
+}
+/*Se activa cuando un elemento es requerido en este caso el input de edad*/
+input:required{
+    color: darkred;
+}
+/* Antes o después del elemento se hace algo...
+#p_aux::before//after{
+    content: url("Maestro.jpg");
+}*/
+/*A la primera letra del elemento se le hace algo...*/
+#p_aux::first-letter{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+/*A la primera linea del elemento se le hace algo...*/
+#p_aux::first-line{
+    color: blue;
+}
+/*A la seleccion del mouse se le hace algo...*/
+#p_aux::selection{
+    background-color: yellow;
+}

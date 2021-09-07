@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link rel="stylesheet" href="estilos/estilos_formulario.css">
 </head>
 <body>
     <form>
         <!--TextBox-->
         <label for="username">Nombre de Usuario</label>
-        <input type="text" name="username">
+        <input type="text" name="username" autocomplete="off">
         <br>
         <br>
         <!--Box de Fechas-->
@@ -21,7 +22,7 @@
         <br>
         <!--Textbox de Números-->
         <label for="age">Edad</label>
-        <input type="number" name="age" step="0.5">
+        <input type="number" name="age" step="0.5" required>
         <br>
         <br>
         <!--Checkbox-->
@@ -74,6 +75,11 @@
         <input type="submit" value="Enviar">
         <!--Evitar que se mande un formulario-->
         <button type="button">Guardar</button>
+        <br>
+        <br>
+        <p id="boton_fake">Presiona aquí</p>
+
+        <p id="p_aux">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, ducimus non? Animi esse dolores debitis vitae optio ipsam laboriosam, at qui aliquid magnam quam, velit praesentium sit, inventore voluptatem provident?</p>
     </form>
 </body>
 </html>
